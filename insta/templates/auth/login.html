@@ -1,0 +1,57 @@
+{% extends 'auth/base.html' %}
+{% load crispy_forms_tags %} 
+{% load static %}
+{% block content %}
+{{block.super}}
+
+<style>
+  .dark{
+    display: none;
+  }
+  #flex{
+   display: flex; 
+  }
+  .bord{
+    border-style: solid;
+    border-color: rgb(253, 252, 252);
+    border-left: none;
+    border-radius: 5px;
+    border-width: thin;
+    margin-left: 20em;
+  }
+</style>
+
+<div class="container">
+  <div class="row">
+       <div class="col-md-4 pt-3 mt-3 bord">
+      <form action="" method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+          <label for="" class="border-bottom mb-4 text-center" style="margin-left: 35%;margin-top: 5px;">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt=""></label>
+          {{form|crispy}}
+        </fieldset>
+        <div class="form-group">
+          <button class="btn btn-outline-info" style="padding: 3px 5px; font-size: 20px; border-radius: 5px; border-width: thin; width: 100%;" type="submit">Log In</button>
+        </div>
+      </form>
+       <div class="text border-top pt-5">
+            <p>
+              Forgot your login details? <a href="#">Get help signing in.</a>
+            </p>
+            <p style="text-align: center;">
+              OR
+            </p>
+              <div class="form-group" >
+                    <button class="btn btn-light"  style="padding: 2px 6px; font-size: 20px; border-radius: 5px; border-width: thin; width: 100%;" type="">
+                      <i><img src="https://img.icons8.com/color/48/000000/facebook.png"/></i> Log in With Facebook</button>
+              </div>
+      </div>
+      <div class="border-top pt-3 text-center">
+        <small class="text-muted">Don't have an account?  <a href="{% url 'register' %}" class="ml-2">Sign up</a></small>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
