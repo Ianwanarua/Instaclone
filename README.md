@@ -21,3 +21,13 @@ To view the site [Click here.]()
 * A User can browse photos on the timeline posted by different users.
 * User is able to like the photos and comment on post.
 * A user is able to see a modal after they click on the addpost icon where they can upload photos
+
+## Prerequisites
+
+For this system to work on your pc you need the following; 
+
+1. Python3.8
+2. Django
+3. Pip
+4. Virtual Environment(virtual)
+5. A text editor (Vscode)
