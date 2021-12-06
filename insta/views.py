@@ -150,8 +150,6 @@ def delete(request,image_id):
   return redirect('profile')
 
 
-
-
 @login_required
 def deleteaccount(request):
   
