@@ -1,6 +1,6 @@
 # InstaClone
 
-![instaclone!](//IG-clone/static/img/sreenshot.png)
+![instaclone!](/static/img/sreenshot.png)
 
 ## Author
 
