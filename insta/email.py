@@ -3,7 +3,7 @@ from django.template.loader import render_to_string
 
 def send_welcome_email(name,receiver):
   subject = 'Welcome to Insta clone'
-  sender = 'denismugendinjue9@gmail.com'
+  sender = 'ian.wanarua@student.moringaschool.com'
   text_content = render_to_string('email/welcome.txt',{"name":name})
   html_content = render_to_string('email/welcome.html',{"name":name})
   msg = EmailMultiAlternatives(subject,text_content,sender,[receiver])
