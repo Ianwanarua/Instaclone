@@ -56,8 +56,8 @@ To get the code..
 * Python3.8
 * Django==2.2.24
 * Heroku
-* Html
-* Css
+* Html5
+* Css3
 * Javascript
 * Bootstrap4
 
