@@ -12,7 +12,7 @@ This is a Instagram clone application. Lets users create an account then they ac
 
 ## Live Link
 
-To view the site [Click here.]()
+To view the site [Click here.](https://instagramclone1507.herokuapp.com/)
 
 ## User Story
 
