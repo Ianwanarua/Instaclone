@@ -1,3 +1,3 @@
 # InstaClone
 
-![instaclone!](pic)
+![instaclone!](//IG-clone/static/img/sreenshot.png)
